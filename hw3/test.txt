@@ -1,0 +1,7 @@
+I am a person.
+I am a dog.
+I am a cat.
+
+Person am I.
+Dog am I.
+Cat am I.
