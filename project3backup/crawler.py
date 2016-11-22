@@ -1,4 +1,4 @@
-import urllib, urllib2, os
+import urllib, urllib2, os, httplib
 from tinydb import *
 from bs4 import BeautifulSoup
 
@@ -8,33 +8,36 @@ db = TinyDB('db.json')
 class Crawler:
 	def __init__(self, root_url):
 
-		visited = dict()
 		stack = list()
 		stack.append(root_url)
 
-		for i in range(5):
-			if stack[-1] not in visited:
-				self.visit(stack.pop(), visited, stack)
+		while stack:
+			if not self.exists(stack[:-1]):
+				self.visit(stack.pop(), stack)
 			else:
 				stack.pop()
 
-
-	def visit(self, url, visited, stack):
-		if not self.should_visit(url, visited):
+	def visit(self, url, stack):
+		url = self.sanitize_url(url)
+		if not self.should_visit(url):
 			return
 
-		url = self.sanitize_url(url)
-
 		print 'visiting ', url
-		html = urllib2.urlopen(url).read()
-		db.insert({'address':url, 'content':html})
+		html = ''
+		try:
+			html += urllib2.urlopen(url).read()
+		except httplib.IncompleteRead as e:
+			html += e.partial
+		except urllib2.HTTPError as e:
+			return
+
+		db.insert({'address':url, 'content':html, 'text':soup.get_text()})
 
 		soup = BeautifulSoup(html, 'html.parser')
 		
 		for anchor in soup.find_all('a', href=True):
 			stack.append(anchor['href'])
 
-		visited[url] = True
 
 	def sanitize_url(self, url):
 		# change all relative addresses to absolute
@@ -49,8 +52,16 @@ class Crawler:
 
 		return url
 
-	def should_visit(self, url, visited):
-		return url not in visited and not url.endswith('.pdf')
+	def exists(self, url):
+		URL = Query()
+		return db.contains(URL.address == url)
+
+	def should_visit(self, url):
+		return (not self.exists(url)) and not url.endswith('.pdf') and not url.endswith('.jpg') \
+			and not url.endswith('.png') and not url.startswith('http://#') and not url.startswith('http://mailto') \
+			and not url.startswith('http://javascript') and not url.startswith('http://tel') and not url.startswith('http://maps') \
+			or url.startswith('http://www.muhlenberg')
 
 
+db.purge()
 Crawler('http://www.muhlenberg.edu')
