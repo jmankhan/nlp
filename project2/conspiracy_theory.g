@@ -9,7 +9,7 @@ There is going to be <happening> ;
 <happening>
 an alien invasion and they will <evil_plan> ;
 a top secret meeting of <group> plans to <evil_plan> ;
-a round up of all illegal immigrants by <person>;
+a round up of all illegal immigrants by <person> ;
 }
 
 {

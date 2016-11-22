@@ -1,3 +1,8 @@
+# Jalal Khan
+# 10/21/16
+# This program will randomly generate a sentence based on a grammar file that is provided
+# It will also display the grammar in a user-friendly manner
+
 import re, random
 
 class Grammar:
@@ -5,15 +10,23 @@ class Grammar:
 		self.table = dict()
 
 	def addProduction(self, nonterminal, definition):
-		if nonterminal not in self.table:
+		if not self.hasNonTerminal(nonterminal):
 			self.table[nonterminal] = list()
-		self.table[nonterminal].append(definition)
+		self.table[nonterminal].append(definition.replace(';', ''))
 
 	def getRandomRHS(self, nonterminal):
-		return random.choice(self.table[nonterminal]).split()[:-1]
+		return random.choice(self.table[nonterminal]).split()
 
-	def hasNonTerminal(self, nonterm):
+	def hasNonTerminal(self, nonterminal):
 		return nonterminal in self.table
+
+	def printGrammar(self):
+		for p in self.table:
+			rules = ""
+			for rule in self.table[p]:
+				rules += rule + "| "
+
+			print p + " <- " + rules[:-2]
 
 	def construct(self, productions):
 		for production in productions:
@@ -26,8 +39,6 @@ class Grammar:
 		
 		return self.table
 
-
-
 class RandomSentenceGenerator:
 
 	def __init__(self, file_name):
@@ -39,9 +50,9 @@ class RandomSentenceGenerator:
 		productions = list(re.findall(r'{(.*?)}', self.data, re.DOTALL))
 		self.grammar = Grammar()
 		self.grammar.construct(productions)
-		print(self.randomSentence())
 		
-		
+		print self.randomSentence()		
+		# self.grammar.printGrammar()
 	
 	def getData(self):
 		return self.data
@@ -51,10 +62,14 @@ class RandomSentenceGenerator:
 
 	def randomSentenceHelper(self, i, prod):
 		if i >= len(prod):
-			return ""
-		elif prod[i].startswith('<') and prod[i].endswith('>'):
-			return prod[i] + " (" + self.randomSentenceHelper(0, self.grammar.getRandomRHS(prod[i])) + ") " + self.randomSentenceHelper(i+1, prod)
+			return ''
+		elif prod[i].strip().startswith('<') and prod[i].strip().endswith('>'):
+			return self.randomSentenceHelper(0, self.grammar.getRandomRHS(prod[i])) + self.randomSentenceHelper(i+1, prod)
 		else:
 			return prod[i] + " " + self.randomSentenceHelper(i+1, prod)
 
-RandomSentenceGenerator('conspiracy_theory.g')
+def main():
+	# RandomSentenceGenerator('conspiracy_theory.g')
+	RandomSentenceGenerator('jalal.g')
+
+main()

@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 public class DirectoryProcessor {
 	public DirectoryProcessor() {
-		File directory = new File("D:/VSO_Images/images");
+		File directory = new File("/home/jalal/Desktop/VSO_Images");
 		ExecutorService executor = Executors.newFixedThreadPool(4);
 
 		crawl(directory, executor);
@@ -19,12 +19,12 @@ public class DirectoryProcessor {
 		for (File imageFile : directory.listFiles()) {
 			if (imageFile.isDirectory()) {
 				crawl(imageFile, executor);
-			} else if(imageFile.getName().endsWith(".txt")){
+			} else if(!imageFile.getName().endsWith(".jpg")){
 				continue;
 			} else {
 				executor.execute(new ImageProcessor(imageFile));
 			}
-			
+
 			return;
 		}
 	}
