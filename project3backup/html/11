@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+	
+<!-- validateFields.js -->
+ 
+<script type="text/javascript" src="/media/styleassets/js/validateFields.js"></script>	
+  <!-- preProcessor.js -->
+<script type="text/javascript" src="/media/styleassets/js/preProcessor.js"></script>
+  
+
+  
+  
+     <!-- KDG Related files and additives -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    
+        <!--MUHL BOOTSTRAP VERSION -->
+    <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+    <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+
+     <link rel="icon" href="/media/kdmedia/images/favicon.ico">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css" />
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  	<link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  	<link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  	<link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  	<link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+    <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  	<!--[if IE 7]><link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css" /><![endif]-->
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="/media/contentassets/js/responsiveslides.js"></script>
+  
+<!--[if gte IE 9]> <script type="text/javascript"> Cufon.set('engine', 'canvas'); </script> <![endif]-->
+
+	<!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+	<script type="text/javascript" src="/media/styleassets/js/requestProcessor.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/sarissa.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/MX XML.js"></script>
+	<!-- <script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"></script> -->
+	<script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/tocTeasers.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/dns.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js"></script>
+	<script type="text/javascript" src="/media/styleassets/js/cookies.js"></script>
+       <script type="text/javascript" src="/media/styleassets/js/headlines.js"></script>
+	<script type="text/javascript">
+		//MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&adpid=8&nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number=7&range=next30&adpid=8&nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number=5&range=today&adpid=8&nem=<li><a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar>Check+out+our+Campus+Calendar</a></li>";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number=5&adpid=8&nem=No+events+are+available+that+match+your+request";
+	</script>
+    <!-- END: CUSTOM SCRIPT LIBRARIES -->
+<title>Merit Scholarships - Prospective Students | Muhlenberg College</title>
+<!-- InstanceBeginEditable name="Header" --><!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Keywords" --><meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Description" --><meta name="DC.description" content="Muhlenberg College's web site." />
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="/media/styleassets/js/browserVersion.js"></script>
+<!-- General browser library file -->
+<script type="text/javascript" src="/media/styleassets/js/browser.js"></script>
+<script type="text/javascript">
+	var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+</script>
+<script type="text/javascript" src="/media/styleassets/js/AC_OETags.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css" /><![endif]-->
+  <style>
+  .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+ 
+</style>
+
+ 
+</head>
+
+<body>
+    <div class="pagewidth">
+    	<div class="wrap">
+            <!-- navigation object : Tool I Am Links --><div class="collapse" id="iam-navigation">
+	<ul>
+        <li>
+          	<a href="/main/admissions"
+               style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+              	Prospective Student
+          	</a>
+      	</li>
+        <li>
+      		<a href="/incoming/"
+               style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+              	Incoming Student
+          	</a>	
+      	</li>
+        <li>
+      		<a href="/gateways/current-students/"
+               style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+              	Current Student
+          	</a>
+      	</li>
+        <li>
+      		<a href="/gateways/faculty-staff"
+               style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+              	Faculty & Staff
+          	</a>
+      	</li>
+        <li>
+      		<a href="/gateways/parents"
+               style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+              	Parent
+          	</a>
+      	</li>
+      	<li>
+          	<a href="/alumni"
+               style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+              	Alumni
+          	</a>
+      	</li>
+  	</ul>
+    <div class="clearfix"></div>
+</div><div class="collapse" id="tool-navigation">
+	<ul>
+        <li>
+          	<a href="/contact">
+              	Contact
+          	</a>
+      	</li>
+        <li>
+      		<a href="/main/aboutus/campus-map/">
+              	Campus Map
+          	</a>	
+      	</li>
+        <li>
+      		<a href="/tactical/azfind.htm">
+              	A-Z Index
+          	</a>
+      	</li>
+        <li>
+      		<a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+              	Directory
+          	</a>
+      	</li>
+        <li>
+      		<a href="http://trexler.muhlenberg.edu/">
+              	Library
+          	</a>
+      	</li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+            <nav class="navbar" id="top">
+                <div class="container" style="min-width:970px;">
+                    <div class="row">
+            		  	<div class="expand-buttons">
+            				<ul>
+                              <a href="/alumni/give"><li class="give-btn hidden-xs">
+  						Give
+  					</li></a>
+                        		<a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed"><li class="tool-button">
+                						Tools <span class="fa fa-caret-down"></span>
+                					</li></a>
+                					<a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed"><li class="iam-button">
+                						I am <span class="fa fa-caret-down"></span>
+                					</li></a>
+                        		<div class="clearfix"></div>
+            				</ul>
+            			</div><!--/expand-buttons-->
+            			<div class="col-xs-6">
+                          <a href="/"><img src="/media/kdmedia/images/header-logo.png"></a>
+            			</div>
+            			<div class="col-xs-6">
+                  		    <div class="header-right">
+            					<div class="search ">
+                                  <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+            							
+                        			<input name="q" type="text" size="0" id="q" value="" placeholder="search">
+                        			<button type="Submit" class="btn btn-search"><span class="fa fa-search"></span></button>
+            						</form>
+                      			<a target="_child" href="http://twitter.com/muhlenberg"><span class="fa fa-twitter"></span></a>
+                      			<a target="_child" href="http://www.facebook.com/MuhlenbergCollege"><span class="fa fa-facebook"></span></a>
+            					</div>
+            				</div>
+            			</div>
+            		</div><!--row-->
+                </div>
+                <div class="container-fluid" style="min-width:970px;">
+                  <div class="container" style="min-width:970px;">
+                  	  <div class="row">
+                    	  <div class="nav-holder">
+                			  <a name="navigation" style="display:none"></a>
+                			  <div class="nav">
+                                  <!-- navigation object : Main Menu KD --><ul><li><a href="/main/aboutus/">About Us</a></li><li><a href="/main/admissions/">Admissions</a></li><li><a href="/academics/">Academics</a></li><li><a href="/student-life/">Student Life</a></li><li><a href="http://muhlenbergsports.com/" target="_blank">Athletics</a></li><li><a href="/news-and-events/index.php">News &amp; Events</a></li><li><a href="/main/wescoe/">Adult Learning</a></li></ul>
+                			  </div>
+                		  </div>
+                      </div><!--row-->
+                    </div>
+                </div>
+            </nav>
+      	    <div class="main-holder">
+              <div class="main">
+    				<div id="content">
+    					<!-- InstanceBeginEditable name="ContentTitle" --><h2 STYLE="height:60px;background-color:#A41D36">Financial Aid</h2><!-- InstanceEndEditable -->
+      				<!-- navigation object : General Page - Image KD -->
+              
+                      
+                      
+                       <!-- navigation object : Easy Rotator Insert -->
+                        <!-- navigation object : Banner Slideshow -->
+                      <!-- navigation object : General Page - Image --><!-- Content Template Start: General Page - Top Image-->
+<div class="content-add03">
+
+<img src="/media/contentassets/images/about/finaid/haas.jpg" alt="Financial Aid" style="     " />
+
+</div>
+<!-- Content Template End-->
+
+    					<div class="content-add04">
+    						<div class="col01">
+                              <a name="content"></a>
+                            	<div class="content-add10">
+                              	 <!-- navigation object : Breadcrumbs --> <span class="content-add05"><div id="breadcrumb"><p><strong><a href="/">Muhlenberg College</a>&nbsp;>&nbsp;<a href="/main/aboutus/">About Us</a>&nbsp;>&nbsp;<a href="/main/aboutus/finaid/">Financial Aid</a>&nbsp;>&nbsp;<a href="/main/aboutus/finaid/prospectivestudents/">Prospective Students</a>&nbsp;>&nbsp;<a href="/main/aboutus/finaid/prospectivestudents/merit.html">Merit Scholarships</a></strong></p></div><br/></span>
+<!-- Content Template Start: General Content-->
+<h1></h1>
+<!-- InstanceBeginEditable name="EditMainContent" -->
+<div class="content-add05">
+<p align="center"><strong>MUHLENBERG MERIT SCHOLARSHIPS</strong></p>
+<p>In an effort to recognize and reward outstanding academic achievement, Muhlenberg College has established a variety of Merit Scholarships.&nbsp; These Merit awards range in value form $1,000 to $20,000 and are renewable for all four years at Muhlenberg based on academic performance (2.5 GPA by end of freshmen year, 3.0 GPA by the end of the sophomore year) and good campus citizenship.</p>
+<p>Although some of the students who receive Muhlenberg merit awards demonstrate financial need, merit awards at Muhlenberg are offered solely on the basis of academic and extracurricular achievement in high school and promise for excellent scholarship and extra curricular contribution on the college level.</p>
+<div class="content-add05">
+<p align="center"><strong>HOW DO I QUALIFY FOR A MERIT AWARD?</strong></p>
+<p>All students who file a complete application for freshman admission are considered for merit awards.&nbsp; In recent years, in an applicant pool that numbers nearly 5,000, between 800 and 900 students typically demonstrate the qualifications to receive serious consideration for a merit award.&nbsp; After a preliminary screening of all applications, these especially well qualified students move into a "second round" of very serious consideration and evaluation.</p>
+<p>In a typical year, Muhlenberg will ultimately offer over 500 merit awards-some as part of a need based financial aid package, some to students who either have not applied for financial aid or who have not demonstrated financial need.&nbsp; Approximately 180 new students enroll at Muhlenberg each year with some kind of merit award from the College.</p>
+<p>In recent years, students receiving merit award from Muhlenberg typically have ranked in the top 10% of their high school classes, taken a very strong junior and seniors course schedule, earned over 1250 combined on the SAT-I, (1300 on the New SAT or 28 on the ACT) and made outstanding extracurricular contributions to their school or community.&nbsp;<em>While Muhlenberg does not require that the SAT or ACT be submitted for admission, students wishing to be considered for merit awards or honors program must submit SAT or ACT scores.</em></p>
+<p>Because of the strength of our applicant pool, the competition for Muhlenberg Merit Scholarships is clearly quite rigorous.&nbsp; Strong numbers, by themselves, do not insure a merit award.&nbsp; Muhlenberg's merit selection process is aimed at considering the whole human being within the context of strong academic achievement.&nbsp; For that reason, extracurricular accomplishments, the strength of the college essay, and teacher and counselor recommendations are weighed heavily in making distinctions between and among strong merit candidates.&nbsp; Demonstrated interest in Muhlenberg is also a factor in merit selections-and a campus interview is the best way to demonstrate serious interest, as well as give an admissions officer the opportunity to get to know you well enough to act as an advocate for you in the merit selection process.</p>
+<p><strong>TYPES OF MERIT AWARDS</strong></p>
+<p><em>Muhlenberg Presidential Scholarship</em>-Value: $10,000-$20,000.&nbsp; Awarded for outstanding academic and extracurricular accomplishment, and potential for excellent contributions to both the classroom and campus community at Muhlenberg.</p>
+<p><em>Commitment to Excellence Award</em>-Value: $2,500-$9,000.&nbsp; Awarded for outstanding academic and extracurricular accomplishment, and potential for excellent contributions to both the classroom and campus community at Muhlenberg.&nbsp; Preference given for extracurricular leadership and/or community service.</p>
+<p><em>Talent Grant</em>-Value: $1,000-$4,000.&nbsp; Awarded on the basis of audition or portfolio to students in performing arts or visual arts who intend to continue performing during college (not necessary to major in Music, Theater Arts, Dance &nbsp;or Art; simply must contribute to performing groups at the College while at Muhlenberg).</p>
+<p><strong>HONORS PROGRAMS</strong></p>
+<p>In addition to Merit Scholarships, Muhlenberg offers two Honors Programs which provide for an enriched academic experience.&nbsp; Each program carries an annual $4,000 stipend, and students can be selected for both a Merit Scholarship and an Honors experience and stipend.&nbsp; The programs are described below:</p>
+<p><em>The Muhlenberg Scholars Program</em>-$4,000 annual stipend.&nbsp; Limited to approximately 15 students per entering class.&nbsp; The Muhlenberg Scholars Program provides a four-year enriched experience emphasizing small seminar style classes, research and independent study opportunities with a faculty mentor, and an active learning style.&nbsp; Students are invited to participate in the program based on a review of completed admissions applications.&nbsp; In addition to the automatic $4,000 per year stipend, Muhlenberg Scholars are also eligible for both need based and merit assistance (and student selected as Muhlenberg Scholars who show financial need receive "preferential" aid packages - that is, packages that are weighted toward&nbsp;<strong>grant</strong>&nbsp;as opposed to loan).&nbsp; Participation in the Muhlenberg Scholar Program provides an enriched academic experience and does not preclude a major in any area.</p>
+<p><em>The Dana Associates Program</em>-$4,000 annual stipend.&nbsp; Limited to approximately 30 students per entering class, The Dana Associates Program also includes an internship experience, a mentorship component, and an emphasis on linking the liberal arts with "real world" situations.&nbsp; As with the Muhlenberg Scholar Program, Dana Associates are eligible for additional need based or merit assistance (and need based financial aid packages are also "preferential" for this group in that they are weighted toward<strong>&nbsp;grant</strong>&nbsp;as opposed to loan).&nbsp; Participation in The Dana Associates Program provides an enriched academic experience and does not preclude a major in any area.</p>
+<p><em>R.J. Fellows Program</em>-$4,000 annual stipend.&nbsp; Limited to approximately 15 students per entering class, the R.J. Fellows Program provides a four-year enriched experience emphasizing small seminar style classes, research&nbsp; and independent study opportunities with a faculty mentor, and an active learning style.&nbsp; Students are invited to paticipate in the program based upon a review of completed admissions applications.&nbsp; R.J. Fellows are eligible for additional merit or need-based financial assistance (and need-based packages are &ldquo;preferential&rdquo; for this group in that they are weighted toward&nbsp;<strong>grant</strong>&nbsp;as opposed to loan).&nbsp; Participation in the R.J. Fellows Program provides an enriched academic experience and does not preclude a major in any area.</p>
+<p><strong>A FINAL WORD</strong></p>
+<p>There are many talented students across the country who now see their range of college options limited by cost and affordability issues.&nbsp; We at Muhlenberg believe strongly in the power of the small, selective, private college experience to transform lives and provide truly inspirational learning opportunities.&nbsp; We want to encourage strong students to include Muhlenberg in that group of colleges that will receive their serious consideration.</p>
+<p>In that sense, Muhlenberg's Merit Scholarships and Honors Programs represent a very special invitation to talented students.&nbsp; They represent an opportunity to enter into a special relationship with Muhlenberg where excellence will be recognized and rewarded.</p>
+<p>Beyond Muhlenberg's merit and honors opportunities, the College offers significant amounts of need based financial aid (over $29-million in institutional grants and scholarships last year).&nbsp; If you have questions about any of these programs or need additional information, please don't hesitate to be in touch with the Office of Admissions.</p>
+</div>
+</div>
+<!-- InstanceEndEditable -->
+<!-- Content Template End--></div>
+
+								
+
+								
+                                <div id="skip_nav"><a href="#navigation">Skip to Navigation</a></div>
+
+							</div>
+
+
+					  <div class="col02">
+
+					  <!-- InstanceBeginEditable name="rightSide" -->           
+                        	<!-- navigation object : General - Right Red Box --> <!-- text/sportrightgeneral related content advanced (current) -->
+                        						<ul class="menu02"><li><span>Financial Aid</span></li><br><li><a href="/main/aboutus/finaid/">Home</a></li><li><a href="https://np.muhlenberg.edu/NetPartnerStudent/Logon.aspx?ReturnUrl=%2fNetPartnerStudent%2f" target="_blank">Financial Aid Online</a></li><li><span class="currentbranch0"><a href="/main/aboutus/finaid/prospectivestudents/merit.html">Merit Scholarships</a></span></li><li><a href="/main/aboutus/finaid/prospectivestudents/talentscholarships/">Talent Scholarships</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/need-basedaid/">Need-Based Aid</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/faq/">FAQ</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/loans/">Loans</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/deadlines/">Deadlines </a></li><li><a href="/main/aboutus/finaid/cost_of_education.html">Tuition + Fees</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/netpricecalculator/">Net Price Calculator</a></li><li><a href="/main/aboutus/finaid/aboutus/">Financial Aid Staff</a></li><li><a href="/media/contentassets/pdf/about/finaid/College%20Board%20IDOC.pdf">What is IDOC</a></li><li><a href="/main/aboutus/finaid/importantfacts/">Additional Information</a></li></ul><br><!-- navigation switcher -->
+                        
+                        
+                        						<!-- navigation object : Academic - Biology RHS Menu <ul class="menu02">
+<li><span>About our Biology Program</span></li>
+<br><li><a href="https://np.muhlenberg.edu/NetPartnerStudent/Logon.aspx?ReturnUrl=%2fNetPartnerStudent%2f" target="_blank">Financial Aid Online</a></li><li><span class="currentbranch0"><a href="/main/aboutus/finaid/prospectivestudents/merit.html">Merit Scholarships</a></span></li><li><a href="/main/aboutus/finaid/prospectivestudents/talentscholarships/">Talent Scholarships</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/need-basedaid/">Need-Based Aid</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/faq/">FAQ</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/loans/">Loans</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/deadlines/">Deadlines </a></li><li><a href="/main/aboutus/finaid/cost_of_education.html">Tuition + Fees</a></li><li><a href="/main/aboutus/finaid/prospectivestudents/netpricecalculator/">Net Price Calculator</a></li><li><a href="/main/aboutus/finaid/aboutus/">Financial Aid Staff</a></li><li><a href="/media/contentassets/pdf/about/finaid/College%20Board%20IDOC.pdf">What is IDOC</a></li><li><a href="/main/aboutus/finaid/importantfacts/">Additional Information</a></li></ul>
+<br> <!-- link menu -->
+                        
+                                            	<!-- navigation object : General - Right Callout --> <!-- text/rightcontentgeneral  related content advanced (current) -->
+                        
+                        						<!-- navigation object : General - Right box --> <!-- text/genright related content advanced (current) -->
+                        
+                                            	<!-- navigation object : GTGC --><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">Where do students learn how businesses prepare for disaster?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/holmesmillertheoryofconnectivity/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">How do Muhlenberg students spend spring break?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">When do meetings, lessons and lectures bring together the campus community?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/commonhourtheoryofconnectivity/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">What are chemistry students working on for Johnson & Johnson?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">Where can you experience bipartisan commentary on each U.S. President?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">Where are teens encouraged to be the voice for their generation?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/hype/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">Where do students witness the conditions present at the formation of the universe?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/brookhavennationallaboratory/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">What's their formula?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/billpennydunham/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/Bill&PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">How are Muhlenberg students gaining real-world investment experience?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/investmentsociety/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">Where do graduating seniors explore the skills they won't learn in a classroom?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/realitymc/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">How are cluster courses helping students think critically across disciplines?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/exploringotherworlds/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">What program matches alumni with students who want to learn more about a career path?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/jobshadowsprogram/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">What is Truman Scholar Jacob Glass '13 working on after 'Berg?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/jacobglass/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">How does Henry Mandelbaum balance school and full-time work at a NYC startup?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/henrymandelbaum/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--><!-- Content Template Start: Right hand side callout-->
+<div class="randomright">
+<div class="content-box">
+
+									
+									<h3>Theory of Connectivity</h3>
+									<div class="add03">
+										<span id="gtgcText">How did Erica Wenzel '14 take a new look at MLB history with mathematics?</span>
+                                                                                <div align="right"><a href="/aboutus/toc/ericawenzel/"><img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif"></div>
+                                                                                <img src="/media/contentassets/images/toc/EricaWenzel-TOC-r.jpg" alt="Rotating teaser for Erica Wenzel '14 TOC article" style="     " /></a>
+									</div>
+								</div>
+</div>
+<!--Content Template End--> <!-- text/genright related content branch (child section "Assets") -->
+								
+
+						<!-- InstanceEndEditable -->
+
+                      </div>
+
+					  </div>
+
+					</div>
+
+<div id="sidebar" >
+
+
+<!-- navigation object : Academics Link Panels --><!-- Content Template Start: Left Hand Side Links Display Panel-->
+<div class="sidebar-add03">
+                        <h3>Get To Know Us</h3>
+			<ul>
+<li><a href="/main/aboutus/mission.html">Mission Statement</a></li>
+<li><a href="/main/aboutus/muhlenberg-at-a-glance/">Muhlenberg at a Glance</a></li>
+<li>Visit Muhlenberg
+<ul>
+<li><a href="/main/aboutus/campus-map/">Campus Map</a></li>
+<li><a href="/main/aboutus/directions-to-muhlenberg/">Directions</a></li>
+<li><a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">Parking</a></li>
+<li><a href="/main/admissions/types-of-visits/">Types of Visits</a></li>
+<li><a href="/main/aboutus/virtual-tour/">Virtual Tour</a></li>
+<li><a href="/main/aboutus/events/">Conference and Event Services</a></li>
+</ul>
+</li>
+<li>Centers &amp; Institutes
+<ul>
+<li><a href="/main/aboutus/cfe/">Center for Ethics</a></li>
+<li><a href="/main/aboutus/fct/">Faculty Center for Teaching</a></li>
+<li><a href="/cultural/ijcu/">Institute for Jewish-Christian Understanding</a></li>
+<li><a href="/main/aboutus/polling/">Institute of Public Opinion</a></li>
+<li><a href="/main/campuslife/multicultural/">Multicultural Life</a></li>
+</ul>
+</li>
+<li><a href="/main/aboutus/hr/jobs.html">Employment</a></li>
+</ul>
+</div>
+<!-- Content Template End: Left Hand Side Links Display Panel--><!-- Content Template Start: Left Hand Side Links Display Panel-->
+<div class="sidebar-add03">
+                        <h3>Administration</h3>
+			<ul>
+<li><a href="/main/aboutus/collegeoffices.html">College Offices</a></li>
+<li><a href="/main/aboutus/president/">Office of the President</a></li>
+<li><a href="/main/campuslife/religiouslife/">Chaplain</a></li>
+<li><a href="/main/aboutus/pr/">Public Relations</a></li>
+<li><a href="/main/aboutus/provost/">Provost</a></li>
+<li><a href="/aboutus/treasurer/">Chief Business Officer &amp; Treasurer</a></li>
+<li><a href="/main/aboutus/deanst/">Dean of Students</a></li>
+<li><a href="/main/admissions/">Dean of Admissions</a></li>
+<li><a href="http://www.muhlenbergconnect.com" target="_blank">Advancement</a></li>
+</ul>
+</div>
+<!-- Content Template End: Left Hand Side Links Display Panel-->
+                    						  
+</div>
+					
+
+
+
+                    </div>
+
+</div>
+</div>
+         
+
+
+                                   
+	<!--Random jQuery Code-->
+<script type text="text/javascript">       
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+
+
+
+    
+<script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js"></script>
+<script type="text/javascript">
+        $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+</script>
+<style>
+  
+  /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+</style>
+          
+  <footer>
+    <div class="container">
+      <div class="footer-logo">
+        <a href="http://muhlenberg.edu"><img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College"></a>
+      </div>
+
+      <div class="footer-contact">
+        <p>2400 Chew St., Allentown, PA 18104-5586<br/>
+          484-664-3100 | 484-664-3623 (TTY)<br/>
+          &copy; Muhlenberg College 2015 | <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">Web Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+ <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');</script>
+<!-- End Google Tag Manager -->
+
+</html><!-- InstanceEnd -->

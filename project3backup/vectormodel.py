@@ -12,5 +12,6 @@ class VectorSpaceModel:
 
 	def create_vector(doc):
 		for r in db.all():
+			docs = list()
 			for word in row['text']:
-				words[word] = 
+				words[word] = row.eid

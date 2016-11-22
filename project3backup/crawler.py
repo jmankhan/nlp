@@ -10,12 +10,15 @@ class Crawler:
 
 		stack = list()
 		stack.append(root_url)
-
-		while stack:
+		count = 0
+		while stack and count <= 50:
 			if not self.exists(stack[:-1]):
 				self.visit(stack.pop(), stack)
 			else:
 				stack.pop()
+			count += 1
+
+		self.write_to_file()
 
 	def visit(self, url, stack):
 		url = self.sanitize_url(url)
@@ -31,9 +34,9 @@ class Crawler:
 		except urllib2.HTTPError as e:
 			return
 
-		db.insert({'address':url, 'content':html, 'text':soup.get_text()})
 
 		soup = BeautifulSoup(html, 'html.parser')
+		db.insert({'address':url, 'content':html, 'text':soup.get_text()})
 		
 		for anchor in soup.find_all('a', href=True):
 			stack.append(anchor['href'])
@@ -59,8 +62,18 @@ class Crawler:
 	def should_visit(self, url):
 		return (not self.exists(url)) and not url.endswith('.pdf') and not url.endswith('.jpg') \
 			and not url.endswith('.png') and not url.startswith('http://#') and not url.startswith('http://mailto') \
-			and not url.startswith('http://javascript') and not url.startswith('http://tel') and not url.startswith('http://maps') \
-			or url.startswith('http://www.muhlenberg')
+			and not url.startswith('http://javascript') and not url.startswith('http://tel') and not url.startswith('http://maps')
+
+	def write_to_file(self):
+		d = 'html/'
+		if not os.path.exists(d):
+			os.makedirs(d)
+
+		rows = db.all()
+		for row in rows:
+			filename =  d + str(row.eid)
+			with open(filename, 'w') as f:
+				f.write(row['content'].encode('utf-8'))
 
 
 db.purge()
