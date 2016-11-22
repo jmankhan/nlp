@@ -28,6 +28,7 @@ public class ImageProcessor implements Runnable {
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
 			//do nothing
+			e.printStackTrace();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} finally {

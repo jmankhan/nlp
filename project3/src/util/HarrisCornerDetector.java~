@@ -33,8 +33,11 @@ public class HarrisCornerDetector {
 	}
 
 	private static int sobelMask(int x, int y, BufferedImage image) {
+<<<<<<< HEAD
+=======
 		int threshold = 50;
-
+		
+>>>>>>> 7edaf6fac134bf2a3522f9b1fd354dd99f5c86bc
 		float xfilter[][] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};
 		float yfilter[][] = {{-1, -2, -1}, {0, 0, 0}, {1, 2, 1}};
 
@@ -48,6 +51,13 @@ public class HarrisCornerDetector {
 				+   yfilter[2][0]*image.getRGB(x-1,y+1)+ yfilter[2][1]*image.getRGB(x,y+1) + yfilter[2][2]*image.getRGB(x+1, y+1);
 
 		//final value = sqrt(x^2 + y^2)
+<<<<<<< HEAD
+		int val = (int) Math.ceil(Math.sqrt(outX*outX + outY*outY))/255;
+		if(val < 25000)
+			return 0;
+		else
+			return Color.gray.getRGB();
+=======
 		int val = (int) Math.ceil(Math.sqrt(outX*outX + outY*outY));
 		Color out = new Color(val);
 		int r = (int) (out.getRed()*.299);
@@ -59,6 +69,7 @@ public class HarrisCornerDetector {
 			return gray.getRGB();
 		else
 			return Color.black.getRGB();
+>>>>>>> 7edaf6fac134bf2a3522f9b1fd354dd99f5c86bc
 	}
 
 	private static BufferedImage toGrayscale(BufferedImage image) {
