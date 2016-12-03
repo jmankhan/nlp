@@ -20,8 +20,8 @@ public class HarrisCornerDetector {
 			}
 		}
 
-		File outfile = new File("/home/jalal/Desktop/VSO_Images/filtered.jpg");
-		File grayfile = new File("/home/jalal/Desktop/VSO_Images/gray.jpg");
+		File outfile = new File("D:/VSO_Images/filtered.jpg");
+		File grayfile = new File("D:/VSO_Images/gray.jpg");
 		if(outfile.exists())
 			outfile.delete();
 		if(grayfile.exists())
@@ -35,8 +35,10 @@ public class HarrisCornerDetector {
 	private static int sobelMask(int x, int y, BufferedImage image) {
 		int threshold = 50;
 
-		float xfilter[][] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};
-		float yfilter[][] = {{-1, -2, -1}, {0, 0, 0}, {1, 2, 1}};
+//		float xfilter[][] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};
+//		float yfilter[][] = {{-1, -2, -1}, {0, 0, 0}, {1, 2, 1}};
+		float xfilter[][] = {{0, 1, 0}, {1, -4, 1}, {0, 1, 0}};
+		float yfilter[][] = {{0, 1, 0}, {1, -4, 1}, {0, 1, 0}};
 
 		//both calculations are the same for each gradient
 		float outX =xfilter[0][0]*image.getRGB(x, y)   + xfilter[0][1]*image.getRGB(x,y-1) + xfilter[0][2]*image.getRGB(x+1, y-1)

@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 public class DirectoryProcessor {
 	public DirectoryProcessor() {
-		File directory = new File("/home/jalal/Desktop/VSO_Images");
+		File directory = new File("D:/VSO_Images");
 		ExecutorService executor = Executors.newFixedThreadPool(4);
 
 		crawl(directory, executor);
